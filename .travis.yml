@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: G1s9UEd3K/Wuc/+CSaAySa0ozwskTtHkpovqLl/2ZkGWvBxj9pX20L4P1DyK5vqfJHS/C2yDk1rg0urackvy0DNvbrI7IB8dg27mKDT+uZMLop5MjQditnIDpZz0FSRJCylhKkyGRPS0cnkWgnPMZJiJu+eJFf41E6IZEMz85wSpBJxYDZfa1TkbtShRDIWxkF71p2ORAb9flul6Nkj7N02X3MOGTaXwBkDmDpzwVavM1WbY84teTElc7mK4kY33Kgq9lYY7oBuwN+hWIEPMen3MbbOi7T8Ypzy4d0jroR5cc8HRjBC0+1VuQYzEnJzL0Y4x1Oodh6kSZmgn8trYb4S6gaqW26z0fHqbPaerdJ88Ada2Ksy6B7KCp0nzZ2mbuP86S9AFLnmLCSaGWfCh1edIBgwit0jMdWes3tIRH0jpHb77TXv+Ez4za/sxGaooSgzg1Lz0bR1ojRrkwGOk+osr/GcD5+6FbrB37DE2BLTBJUhQ6+1bv2B6a4Wu+upZuo/3tuii8scYGx0lL8E7Lbzh7cPt3g36yjpbXHMUbfPrkI1u1GUd2LWCmarXOU/lNm42y76I5dBSCiaLH6UhXgn5uWQfU9mLrjfrpsj/Y7X/DCONnFGuLBXYB16YEnFBp7oOD+UvPN1qwGLIRNTnE9NBG1/DSxqLl458+EhcCrM=
+  app: stormy-springs-29326
+  on:
+    repo: aaronleebrooks/howdy-neighbor-server
